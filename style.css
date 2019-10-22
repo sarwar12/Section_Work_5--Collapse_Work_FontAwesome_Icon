@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	color: #a9a9a9;
+	font-size: 15px;
+	line-height: 1.7;
+}
+/*Bootstrap 3*/
+.col-md-offset-6 {
+    margin-left: 50%;
+ }
+/*Bootstrap 3*/
+/*Collapse Section Start*/
+.section-padding {
+	padding: 50px 0;
+}
+.section-bg-1 {
+  position: relative;
+}
+.section-bg-1::after{
+	background: url(img/attractives.jpg);
+}
+.section-bg-1::after {
+	background: url(img/attractives.jpg);
+	background-size: cover;
+	background-position: 50% 33%;
+	background-color: #ddd;
+	height: 100%;
+	width: 47%;
+	content: "";
+	position: absolute;
+	top: 0;
+}
+.section-title {
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 35px;
+	color: #333;
+}
+.section-title span{
+	color: #18b5fd;
+}
+.styled-faq .card > .card-header {
+	border: none;
+	border-radius: 0;
+	background: none;
+}
+.styled-faq .accordion .card {
+	border-radius: 0;
+	box-shadow: 0 0 0;
+}
+.fas.fa-angle-down {
+  position: absolute;
+  right: 25px;
+  top: 0;
+}
+.fas.fa-angle-up {
+  position: absolute;
+  right: 25px;
+  top: 0px;
+}
+.styled-faq .accordion .card .card-header h2 button i {
+	line-height: 56px;
+	font-size: 150%;
+	display: none;
+}
+.styled-faq .accordion .card .card-header h2 button[aria-expanded="true"] i.fas.fa-angle-down {
+	display: block;
+}
+.styled-faq .accordion .card .card-header h2 button[aria-expanded="false"] i.fas.fa-angle-up {
+	display: block;
+}
+.styled-faq {
+	min-height: 480px;
+	margin-top: 20px;
+}
+/*Collapse Section Stop*/
